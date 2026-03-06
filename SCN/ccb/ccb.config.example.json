@@ -1,0 +1,10 @@
+{
+  "llm": {
+    "provider": "openai",
+    "apiKey": "sk-xxx",
+    "model": "gpt-4o-mini"
+  },
+  "database": {
+    "path": "./data/ccb.db"
+  }
+}

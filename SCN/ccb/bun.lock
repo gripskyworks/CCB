@@ -8,6 +8,7 @@
         "@elizaos/core": "^2.0.0-alpha.27",
         "@elizaos/plugin-sql": "^2.0.0-alpha.11",
         "chrono-node": "^2.7.7",
+        "openai": "^6.27.0",
         "uuid": "^11.0.0",
       },
       "devDependencies": {
@@ -314,6 +315,8 @@
     "neo-async": ["neo-async@2.6.2", "http://mirrors.tencent.com/npm/neo-async/-/neo-async-2.6.2.tgz", {}, "sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw=="],
 
     "node-readable-to-web-readable-stream": ["node-readable-to-web-readable-stream@0.4.2", "http://mirrors.tencent.com/npm/node-readable-to-web-readable-stream/-/node-readable-to-web-readable-stream-0.4.2.tgz", {}, "sha512-/cMZNI34v//jUTrI+UIo4ieHAB5EZRY/+7OmXZgBxaWBMcW2tGdceIw06RFxWxrKZ5Jp3sI2i5TsRo+CBhtVLQ=="],
+
+    "openai": ["openai@6.27.0", "http://mirrors.tencent.com/npm/openai/-/openai-6.27.0.tgz", { "peerDependencies": { "ws": "^8.18.0", "zod": "^3.25 || ^4.0" }, "optionalPeers": ["ws", "zod"], "bin": { "openai": "bin/cli" } }, "sha512-osTKySlrdYrLYTt0zjhY8yp0JUBmWDCN+Q+QxsV4xMQnnoVFpylgKGgxwN8sSdTNw0G4y+WUXs4eCMWpyDNWZQ=="],
 
     "p-finally": ["p-finally@1.0.0", "http://mirrors.tencent.com/npm/p-finally/-/p-finally-1.0.0.tgz", {}, "sha512-LICb2p9CB7FS+0eR1oqWnHhp0FljGLZCWBE9aix0Uye9W8LTQPwMTYVGWQWIw9RdQiDg4+epXQODwIYJtSJaow=="],
 
