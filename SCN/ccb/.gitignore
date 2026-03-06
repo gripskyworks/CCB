@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Database
+data/*.db
+data/*.db-journal
+data/users/
+data/preset/
+
+# Build
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Config (local)
+config/llm.toml
