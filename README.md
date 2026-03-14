@@ -61,6 +61,7 @@ ccb/
 - **v1** - 基础版本（见 `ccb-archive/ccb-v1`）
 - **v0** - 原型设计（见 `ccb-archive/ccb-zero`）
 
+- 最新版本转向依赖google ADK,或将解决很多问题？
 ## License
 
 MIT
